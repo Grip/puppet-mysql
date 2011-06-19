@@ -13,7 +13,7 @@ This class:
 	None  
 
 ### Usage example
-node 'debian.client.puppet' {
+<pre><code>node 'debian.client.puppet' {
 	include mysql
 
 mysql::config_file {
@@ -37,5 +37,5 @@ mysql::grants {
 	db => "test",
 	privileges => "all privileges";
 	}
-}
+}</pre></code>
 
