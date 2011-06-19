@@ -36,3 +36,4 @@ mysql::grants {
 	}
 }</pre></code>
 
+<i>Some code is a modification of https://github.com/rochaporto/puppet-mysql</i>
