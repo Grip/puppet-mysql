@@ -15,7 +15,6 @@ This class:
 ### Usage example
 <pre><code>node 'debian.client.puppet' {
 	include mysql
-
 mysql::config_file {
         "/etc/mysql/my.cnf":
         max_connections => "100",
@@ -24,12 +23,10 @@ mysql::config_file {
         query_cache_size => "0",
 	innodb_buffer_pool_size => "120M";
         }
-
 mysql::db {
 	"test":
 	source_file => "test.sql"
 	}
-
 mysql::grants {
 	"admin_test":
 	user => "admin",
