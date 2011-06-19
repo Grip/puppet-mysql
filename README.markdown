@@ -2,7 +2,7 @@
 
 ## Module: mysql  
 
-This class:
+This module:
 
 - Installs MySQL server.
 - Configure mysql server startup script.
